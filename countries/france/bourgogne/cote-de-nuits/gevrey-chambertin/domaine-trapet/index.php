@@ -1,6 +1,4 @@
 <?php
-
-$producer = 'Domaine Trapet Pére et Fils';
+$producer = 'Domaine Trapet Père et Fils';
 include_once('../../../../../producer_base.php');
-
 ?>

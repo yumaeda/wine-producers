@@ -1,6 +1,4 @@
 <?php
-
-$producer = 'Domaine Méo-Camuzet';
+$producer = 'Méo-Camuzet';
 include_once('../../../../../producer_base.php');
-
 ?>

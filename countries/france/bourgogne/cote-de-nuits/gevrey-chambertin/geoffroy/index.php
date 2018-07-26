@@ -1,8 +1,4 @@
 <?php
-
-$producer          = 'Domaine Geoffroy Pére & Fils';
-$fOriginalContents = TRUE;
-
+$producer = 'Domaine Geoffroy Père & Fils';
 include_once('../../../../../producer_base.php');
-
 ?>

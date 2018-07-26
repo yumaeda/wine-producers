@@ -1,6 +1,6 @@
 <?php
 
-$producer = 'Domaine Amiot Servelle';
+$producer = 'Amiot Servelle';
 include_once('../../../../../producer_base.php');
 
 ?>
