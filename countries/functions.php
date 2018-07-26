@@ -101,6 +101,7 @@ $rgobjRegion = array(
 
     'Pannonhalma'             => 'パンノンハルマ',
     'Tokaj-Hegyalja Borvidék' => 'トカイ・ワイン地区',
+    'Balatonboglár'           => 'バラトンボグラー', 
 
     'Alentejo'                => 'アレンテージョ地方',
     'Norte'                   => 'ノルテ地方',
