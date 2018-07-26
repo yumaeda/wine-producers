@@ -1,0 +1,10 @@
+﻿header
+{
+    width: 100%;
+}
+
+header ul li
+{
+    display: block;
+    padding: 10px 0 0 0;
+}

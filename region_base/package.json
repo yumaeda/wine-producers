@@ -1,0 +1,12 @@
+{
+  "name": "region_base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "producer_list.js",
+  "scripts": {
+    "build": "browserify ./build/producer_list.js -t babelify --outfile ./build/producer_list.js",
+    "minify": "minify --output ./target/producer_list.min.js ./build/producer_list.js"
+  },
+  "author": "Yukitaka Maeda",
+  "license": "ISC"
+}

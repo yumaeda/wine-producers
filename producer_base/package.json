@@ -1,0 +1,11 @@
+{
+  "name": "producer_base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "producer_base.js",
+  "scripts": {
+    "minify": "minify --output ./target/producer_base.min.js ./build/producer_base.js"
+  },
+  "author": "Yukitaka Maeda",
+  "license": "ISC"
+}

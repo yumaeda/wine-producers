@@ -1,0 +1,28 @@
+﻿header
+{
+    width: 100%;
+}
+
+header ul li
+{
+    display: block;
+    padding: 10px 0 0 0;
+}
+
+
+div.contents
+{
+    width: 100%;
+}
+
+div.contents ul > li
+{
+    padding: 15px;
+}
+
+
+footer
+{
+    width: 100%;
+}
+
