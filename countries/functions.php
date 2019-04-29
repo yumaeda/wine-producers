@@ -1,6 +1,6 @@
 <?php
 
-$rgobjCountry = array(
+$rgobjCountry = [
     'South Africa'   => '南アフリカ',
     'France'         => 'フランス',
     'Italy'          => 'イタリア',
@@ -19,10 +19,14 @@ $rgobjCountry = array(
     'Moldova'        => 'モルドヴァ',
     'Bulgaria'       => 'ブルガリア',
     'Greece'         => 'ギリシャ',
-    'Japan'          => '日本'
-);
+    'Japan'          => '日本',
+    'Slovenia'       => 'スロヴェニア',
+    'Chile'          => 'チリ',
+    'Canada'         => 'カナダ',
+    'Georgia'        => 'ジョージア'
+];
 
-$rgobjRegion = array(
+$rgobjRegion = [
     'Champagne'               => 'シャンパーニュ地方',
     'Alsace'                  => 'アルザス地方',
     'Vallée de la Loire'      => 'ロワール河流域',
@@ -123,8 +127,15 @@ $rgobjRegion = array(
 
     'Crete'                   => 'クレタ島',
 
-    'Oita'                    => '大分県'
-);
+    'Oita'                    => '大分県',
+
+    'Kakheti'                 => 'カヘティ',
+
+    'Aconcagua'               => 'アコンカグア',
+    'Central Valley'          => 'セントラル・ヴァレー',
+
+    'Primorska'               => 'プリモルスカ地方'
+];
 
 $rgobjDistrict = array(
     // Champagne
@@ -168,7 +179,9 @@ $rgobjDistrict = array(
     // Vallée du Rhône
     'Vignoble Septentrional'        => 'ローヌ地方北部の栽培地域',
     'Vignoble Méridional'           => 'ローヌ地方南部の栽培地域',
-    'Autres Vignobles de Rhône'     => 'その他の栽培地域'
+    'Autres Vignobles de Rhône'     => 'その他の栽培地域',
+
+    'Goriska Brda'                  => 'ゴリシュカ・ブルダ地区'
 );
 
 $rgobjVillage = array(
