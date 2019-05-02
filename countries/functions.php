@@ -134,7 +134,10 @@ $rgobjRegion = [
     'Aconcagua'               => 'アコンカグア',
     'Central Valley'          => 'セントラル・ヴァレー',
 
-    'Primorska'               => 'プリモルスカ地方'
+    'Primorska'               => 'プリモルスカ地方',
+
+    'British Columbia'        => 'ブリティッシュ・コロンビア州',
+    'Ontario'                 => 'オンタリオ州'
 ];
 
 $rgobjDistrict = array(
