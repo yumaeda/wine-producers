@@ -616,6 +616,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET')
     }
 
 $doubleEscapedProducer = str_replace("'", "\\\\\'", $engProducerFull);
+$timestamp = date('YmdHis');
 
 echo '
             </header>
@@ -624,9 +625,9 @@ echo '
             <span>' . $jpnProducerFull . '</span>
             <br /><br />
             <div class="imagePane">
-                <img src="./' . $twitterHash . '-1.jpg" alt="' . $jpnProducerFull . 'の写真1" onerror="this.src=\'http://anyway-grapes.jp/producers/images/unavailable-1.jpg\';" />
-                <img src="./' . $twitterHash . '-2.jpg" alt="' . $jpnProducerFull . 'の写真2" onerror="this.src=\'http://anyway-grapes.jp/producers/images/unavailable-2.jpg\';" />
-                <img src="./' . $twitterHash . '-3.jpg" alt="' . $jpnProducerFull . 'の写真3" onerror="this.src=\'http://anyway-grapes.jp/producers/images/unavailable-3.jpg\';" />
+                <img src="./' . $twitterHash . '-1.jpg?t=' . $timestamp . '" alt="' . $jpnProducerFull . 'の写真1" onerror="this.src=\'http://anyway-grapes.jp/producers/images/unavailable-1.jpg\';" />
+                <img src="./' . $twitterHash . '-2.jpg?t=' . $timestamp . '" alt="' . $jpnProducerFull . 'の写真2" onerror="this.src=\'http://anyway-grapes.jp/producers/images/unavailable-2.jpg\';" />
+                <img src="./' . $twitterHash . '-3.jpg?t=' . $timestamp . '" alt="' . $jpnProducerFull . 'の写真3" onerror="this.src=\'http://anyway-grapes.jp/producers/images/unavailable-3.jpg\';" />
             </div>
             <table>
                 <tr>
