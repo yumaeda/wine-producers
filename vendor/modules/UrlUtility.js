@@ -128,7 +128,7 @@ class UrlUtility
             strName = strName.replace(/\s/g, '-');
             strName = strName.replace(/'/g, '-');
             strName = strName.replace(/\./g, '-');
-            strName = strName.replace('/(-)+/g', '-');
+            strName = strName.replace(/(-)+/g, '-');
 
             if (strCountry == 'France')
             {
