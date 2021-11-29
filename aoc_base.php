@@ -410,7 +410,7 @@ echo '
                 $producerListHtml . '
             </div>
             <footer>
-                <a href="//anyway-grapes.jp"><img src="//sei-ya.jp/anyway-grapes/images/logo.png" alt="ワインのAnyway-Grapes｜世田谷区 経堂" class="shopLogo" /></a>
+                <a href="//anyway-grapes.jp"><img src="//anyway-grapes.jp/producers/images/logo.png" alt="ワインのAnyway-Grapes｜世田谷区 経堂" class="shopLogo" /></a>
             </footer>
         </div>
     </body>

@@ -143,7 +143,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET')
             <div id="producerPane"></div>
         </div>
         <footer>
-            <a href="http://anyway-grapes.jp"><img src="http://sei-ya.jp/anyway-grapes/images/logo.png" alt="ワインのAnyway-Grapes｜世田谷区 経堂" class="shopLogo" /></a>
+            <a href="http://anyway-grapes.jp"><img src="//anyway-grapes.jp/producers/images/logo.png" alt="ワインのAnyway-Grapes｜世田谷区 経堂" class="shopLogo" /></a>
         </footer>
     </body>
 </html>
