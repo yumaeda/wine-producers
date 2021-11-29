@@ -14,6 +14,10 @@ $curDirPath = dirname(__FILE__);
 include_once("$curDirPath/../types.php");
 include_once("$curDirPath/functions.php");
 
+// Get tax rate from config file.
+$config = include("$curDirPath/../config.php");
+$taxRate = $config['tax']['rate']();
+
 class Wine
 {
     public $id;
@@ -50,6 +54,8 @@ function isPurchasable($objWine)
 
 function generatePriceHtml($objWine)
 {
+    global $taxRate;
+
     $priceHtml = '';
     $fMember   = (isset($_SESSION['user_id']) && isset($_SESSION['user_name']));
 
@@ -63,19 +69,21 @@ function generatePriceHtml($objWine)
         }
         else
         {
+            $priceWithTax = $objWine->price * (1 + $taxRate);
+            $memberPriceWithTax = $objWine->memberPrice * (1 + $taxRate);
             if ($fMember)
             {
                 $priceHtml =
-                    '<span class="jpnFont">通常価格：<span class="engMediumText">¥' . number_format($objWine->price) . '</span> (税抜)</span>' .
+                    '<span class="jpnFont">通常価格：<span class="engMediumText">¥' . number_format($priceWithTax) . '</span> (税込)</span>' .
                     '<br />' .
-                    '<span style="color:red;"><span class="jpnFont">会員価格：<span class="engLargeText">¥' . number_format($objWine->memberPrice) . '</span> (税抜)</span></span>';
+                    '<span style="color:red;"><span class="jpnFont">会員価格：<span class="engLargeText">¥' . number_format($memberPriceWithTax) . '</span> (税込)</span></span>';
             }
             else
             {
                 $priceHtml =
-                    '<span><span class="jpnFont">通常価格：<span class="engLargeText">¥' . number_format($objWine->price) . '</span> (税抜)</span></span>' .
+                    '<span><span class="jpnFont">通常価格：<span class="engLargeText">¥' . number_format($priceWithTax) . '</span> (税込)</span></span>' .
                     '<br />' .
-                    '<span class="jpnFont" style="color:red">会員価格：<span class="engMediumText">¥' . number_format($objWine->memberPrice) . '</span> (税抜)</span>';
+                    '<span class="jpnFont" style="color:red">会員価格：<span class="engMediumText">¥' . number_format($memberPriceWithTax) . '</span> (税込)</span>';
             }
         }
     }
