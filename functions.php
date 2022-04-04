@@ -23,7 +23,8 @@ $rgobjCountry = [
     'Slovenia'       => 'スロヴェニア',
     'Chile'          => 'チリ',
     'Canada'         => 'カナダ',
-    'Georgia'        => 'ジョージア'
+    'Georgia'        => 'ジョージア',
+    'Poland'         => 'ポーランド'
 ];
 
 $rgobjRegion = [
@@ -137,7 +138,9 @@ $rgobjRegion = [
     'Primorska'               => 'プリモルスカ地方',
 
     'British Columbia'        => 'ブリティッシュ・コロンビア州',
-    'Ontario'                 => 'オンタリオ州'
+    'Ontario'                 => 'オンタリオ州',
+
+    'Dolnośląskie'            => 'ドルヌィ・シロンスク県'
 ];
 
 $rgobjDistrict = array(
