@@ -7,6 +7,7 @@ $rgobjCountry = [
     'Spain'          => 'スペイン',
     'Germany'        => 'ドイツ',
     'Austria'        => 'オーストリア',
+    'Switzerland'    => 'スイス',
     'Rumania'        => 'ルーマニア',
     'Portugal'       => 'ポルトガル',
     'United Kingdom' => 'イギリス',
@@ -143,7 +144,11 @@ $rgobjRegion = [
 
     'Dolnośląskie'            => 'ドルヌィ・シロンスク県',
 
-    'Moravia'                 => 'モラヴィア'
+    'Moravia'                 => 'モラヴィア',
+
+    'Graubunden'              => 'グラウビュンデン州',
+    'Valais'                  => 'ヴァレ州',
+    'Vaud'                    => 'ヴォー州'
 ];
 
 $rgobjDistrict = array(
