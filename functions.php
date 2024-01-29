@@ -24,6 +24,7 @@ $rgobjCountry = [
     'Japan'          => '日本',
     'Slovenia'       => 'スロヴェニア',
     'Chile'          => 'チリ',
+    'Uruguay'        => 'ウルグアイ',
     'Canada'         => 'カナダ',
     'Georgia'        => 'ジョージア',
     'Poland'         => 'ポーランド'
@@ -148,7 +149,11 @@ $rgobjRegion = [
 
     'Graubunden'              => 'グラウビュンデン州',
     'Valais'                  => 'ヴァレ州',
-    'Vaud'                    => 'ヴォー州'
+    'Vaud'                    => 'ヴォー州',
+
+    'Canelones'               => 'カネロネス',
+    'Montevideo'              => 'モンテビデオ',
+    'Rivera'                  => 'リベラ'
 ];
 
 $rgobjDistrict = array(
