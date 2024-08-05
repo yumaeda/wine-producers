@@ -25,6 +25,7 @@ $rgobjCountry = [
     'Slovenia'       => 'スロヴェニア',
     'Chile'          => 'チリ',
     'Uruguay'        => 'ウルグアイ',
+    'Luxembourg'     => 'ルクセンブルク',
     'Canada'         => 'カナダ',
     'Georgia'        => 'ジョージア',
     'Poland'         => 'ポーランド'
@@ -153,7 +154,9 @@ $rgobjRegion = [
 
     'Canelones'               => 'カネロネス',
     'Montevideo'              => 'モンテビデオ',
-    'Rivera'                  => 'リベラ'
+    'Rivera'                  => 'リベラ',
+
+    'Grevenmacher'            => 'グレーヴェンマハー'
 ];
 
 $rgobjDistrict = array(
