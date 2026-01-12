@@ -96,8 +96,8 @@ function generateWineDetailHtml($objWine, $fMulti, $fHide)
     global $wineTypeHash;
 
     $barcode  = $objWine->id;
-    $imgUrl   = "//anyway-grapes.jp/images/wines/200px/$barcode.png";
-    $noImgUrl = "//anyway-grapes.jp/images/wines/200px/no_wine_photo.png";
+    $imgUrl   = "//anyway-grapes.jp/images/wines/400px/$barcode.png";
+    $noImgUrl = "//anyway-grapes.jp/images/wines/400px/no_wine_photo.png";
 
     $strCountry = $objWine->country;
     $strVintage = $objWine->vintage;
@@ -143,7 +143,7 @@ function generateWineDetailHtml($objWine, $fMulti, $fHide)
             <tbody>
             <tr>
                 <td style="width:350px;text-align:center;">
-                    <a href="http://anyway-grapes.jp/store/index.php?pc_view=1&submenu=wine_detail&id=' . $barcode . '" target="_blank"><img class="clickable-img" src="' . $imgUrl . '" alt="' . $objWine->jpnName . '" onerror="this.src=\'' . $noImgUrl . '\';" /></a>
+                    <a href="http://anyway-grapes.jp/store/index.php?pc_view=1&submenu=wine_detail&id=' . $barcode . '" target="_blank"><img class="clickable-img" style="width:200px" src="' . $imgUrl . '" alt="' . $objWine->jpnName . '" onerror="this.src=\'' . $noImgUrl . '\';" /></a>
                     <br />
                     <span style="color:lightcoral;">画像は実際とは異なる場合があります。</span>
                 </td>
