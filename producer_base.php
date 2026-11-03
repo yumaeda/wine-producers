@@ -37,6 +37,7 @@ class Wine
     public $stock;
     public $apply;
     public $etc;
+    public $detail;
 }
 
 // Copied from full-winelist.php.
